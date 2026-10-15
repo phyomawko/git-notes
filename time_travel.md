@@ -21,3 +21,12 @@ git checkout eb1917e ကို run လိုက်ပါမယ် ထိုအ�
 
 2. git revert
 
+ကုဒ်များကိုခဏပြန်ကြည့်ချင်ယုံမဟုတ်ဘဲ ထာဝရပြန်လည်သွားရောက်လိုသောအခါတွင်သုံးသည်
+နမူနာအရ second commit ကို revert လုပ်လိုသောကြောင့် git revert eb1917e ကိုသုံးသည် ထိုအခါ ကုဒ်များသည် second commit မတင်ခင်အနေအထားသို့ uncommited changes များပေါ်လာပြီး အောက်ပါပုံအတိုင်းဖြစ်လာသည်
+
+![alt text](<conflict after revert.png>)
+
+incoming change သည် second commit ကိုမတင်ခင်ကကုဒ်များဖြစ်ပြီး ထိုအရင် ကုဒ်များကိုconfirm ပေးလိုက်ပါက second commit မတင်ခင်ကကုဒ်များကို commit အသစ်တစ်ခုဖြင့်မှတ်သားပြီး အသစ်ပြင်ပေးလိုက်သည်ကိုအောက်ပါအတိုင်းတွေ့ရလိမ့်မည်
+![alt text](<git graph ss after revert.png>)
+
+
