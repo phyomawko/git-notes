@@ -1,6 +1,6 @@
 # Different Types of Git Merget Strategies
 
-git merget strategy ၂မျိုးရှိသည် အဲ့ဒါတွေက 
+git merge strategy ၂မျိုးရှိသည် အဲ့ဒါတွေက 
 ၁.  fast forward
 ၂.  non fast forward တို့ဖြစ်သည်
 
