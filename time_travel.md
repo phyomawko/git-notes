@@ -29,4 +29,14 @@ git checkout eb1917e ကို run လိုက်ပါမယ် ထိုအ�
 incoming change သည် second commit ကိုမတင်ခင်ကကုဒ်များဖြစ်ပြီး ထိုအရင် ကုဒ်များကိုconfirm ပေးလိုက်ပါက second commit မတင်ခင်ကကုဒ်များကို commit အသစ်တစ်ခုဖြင့်မှတ်သားပြီး အသစ်ပြင်ပေးလိုက်သည်ကိုအောက်ပါအတိုင်းတွေ့ရလိမ့်မည်
 ![alt text](<git graph ss after revert.png>)
 
+3. soft reset
+
+ကုဒ််များကိုသက်ဆိုင်ရာ commit အနေအထားသို့ပြန်လည်ရောက်ရှိစေပြိးကြားထဲကပြောင်းလိုက်တာတွေကို uncommited changes များအဖြစ်မြင်စေလိုသောအခါတွင်သုံးသည် 
+အောက်ပါပုံသည် soft reset အပြီးမြင်တွေ့ရမည့် git graph ပုံဖြစ်သည်
+![alt text](<git graph ss after soft reset.png>)
+
+4. hard reset
+
+soft reset ကဲ့သို့ပင်ကုဒ်များကို သက်ဆိုင်ရာ commit အနေအထားသို့ပြန်လည်ရောက်ရှိစေသည် သို့ရာတွင်ကြားထဲကပြောင်းလိုက်သည်များကို uncommitted changes များအဖြစ်မမြင်ရတော့သည်သာမက ကြားထဲက commit များကို history ထဲကပါအောက်ပါပုံတွင်မြင်ရသည့်အတိုင်းဖျက်လိုက်သည်ကိုတွေ့ရမည်
+![alt text](<git graph ss after hard reset.png>)
 
