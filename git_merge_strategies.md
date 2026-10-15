@@ -1,4 +1,4 @@
-# Cheatsheet for Git Merget Strategies
+# Different Types of Git Merget Strategies
 
 git merget strategy ၂မျိုးရှိသည် အဲ့ဒါတွေက 
 ၁.  fast forward
