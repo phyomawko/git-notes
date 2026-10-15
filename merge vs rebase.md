@@ -10,6 +10,6 @@ source branch / target branch နှစ်ခုလုံး အထက်ပါ�
 
 2. rebase
 
-![alt text](git graph ss after rebase.png)
+![alt text](<git graph ss after rebase.png>)
 
 rebase လုပ်လိုက်သောအခါတွင်မူ  main တွင်တင်ထားသောab သည်  feat/test တွင်တင်ထားသော c d e တို့ရဲ့ အရှေ့သို့ရောက်ရှိသွားသည်
